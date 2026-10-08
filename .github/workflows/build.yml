@@ -37,7 +37,7 @@ jobs:
       - name: Build APK
         working-directory: ${{ env.PROJECT_DIR }}
         run: |
-         chmod +x gradlew
+         gradle assembleDebug
          ./gradlew assembleDebug
 
           
